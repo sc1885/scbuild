@@ -20,6 +20,21 @@ body {
     background-image: url('../images/home-bg.jpg');
 
 }
+.perc-region {
+    min-height: 0 !important;
+}
+#alert-notice {
+    display:none;
+    visiblity:hidden;  
+} 
+
+/*    
+.bx-controls.bx-has-pager.bx-has-controls-direction {
+    display: none;
+    visibility: hidden;
+}
+*/
+
 header {
 position:relative;
 z-index:2;
