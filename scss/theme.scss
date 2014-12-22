@@ -1,7 +1,7 @@
 
 /* header styles */
 
-@import "_components/bootstrap.min"; 
+@import "_components/bootstrap.min";
 @import "_components/bootstrap-theme.min";
 // @import "_components/flexslider";
 @import "_components/yamm";
@@ -16,7 +16,7 @@ html,body
     overflow-x: hidden;
 }
 
-body{
+body {
     background-image: url('../images/home-bg.jpg');
 
 }
@@ -85,12 +85,12 @@ text-decoration: none;
   border-radius: 7px;
   height: 33px;
 
-  width: 490px; 
+  width: 490px;
 }
 
 
 #searchbar3 {
-  margin-left: 30px; 
+  margin-left: 30px;
 }
 
 
@@ -101,7 +101,7 @@ text-decoration: none;
   float: left !important;
   height: 33px !important;
   margin-left: -30px;
-  width: 140px !important; 
+  width: 140px !important;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -213,8 +213,8 @@ color: #fff;
     font-size: 14px;
     font-weight: bold;
     margin-bottom:0px;
-	box-shadow:0 1px 5px #000;
-	z-index:1;
+    box-shadow:0 1px 5px #000;
+    z-index:1;
 }
 
 
@@ -324,11 +324,11 @@ padding-top:50px;
 
 /* news slider */
 
-   
+
    #temp-region-10{
-    float:right;   
+    float:right;
    }
-   
+
 
 .heading {
 
@@ -394,6 +394,39 @@ color:#701123;
 
 /* end news slider */
 
+
+/* Alert Notice */
+#alert-notice {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#alert-notice table {
+    border: 0px solid #f8f8f8;
+    margin: 0 auto;
+    max-width: 960px;
+    min-width: 600px;
+}
+#alert-notice table tr {
+    vertical-align: top;
+display:block;
+border-bottom:1px #f8f8f8 solid;
+margin-bottom:10px;
+}
+#alert-notice table td {
+    padding: 10px;
+text-align:left;
+}
+
+@media screen and (max-width: 960px) {
+#alert-notice table {
+    min-width: 100%;
+}
+}
+
+
 /* photo of the day */
 #photo-of-the-day {
 overflow:hidden; margin-top: 0px; padding-top: 10px; background-color:rgba(255,255,255,1); border:1px solid #efefef; min-height:347px;
@@ -439,7 +472,7 @@ h2{
 
 
 #school-program-container {
-           overflow:hidden; 
+           overflow:hidden;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid #efefef;
     margin-top: 25px;
@@ -485,7 +518,7 @@ text-shadow:0 1px 0 #666;
     background-color:#7B3D47;
 
 }
-.asps{   
+.asps{
     background-color:#984621;
 }
 .hper{
@@ -526,6 +559,7 @@ text-shadow:0 1px 0 #666;
 
 .event-cell{
     background-color:#FFF;
+        border: 1px solid #eee;
 }
 .col-sm-4.event-cell h4 {
     color:#000; text-align:center;   background-color: #fff;
@@ -707,33 +741,33 @@ html[xmlns] .slides {display: block;}
 
 body{
 margin:0px;
-padding:0px;	
+padding:0px;
 }
 .homeslide1, .homeslide2, .homeslide3, .homeslide4, .homeslide5{
-	background-repeat:no-repeat;
-	background-size:100% auto;
-	background-position:top center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    background-position:top center;
 }
 
 /*
 .homeslide1{
-	background-image:url(../images/homephoto1.jpg);
-} 
+    background-image:url(../images/homephoto1.jpg);
+}
 .homeslide2{
-background-image:url(../images/homephoto2.jpg);	
+background-image:url(../images/homephoto2.jpg);
 }
 .homeslide3{
-background-image:url(../images/homephoto3.jpg);	
+background-image:url(../images/homephoto3.jpg);
 }
 .homeslide4{
-	background-image:url(../images/homephoto4.jpg);
+    background-image:url(../images/homephoto4.jpg);
 }
 .homeslide5{
-background-image:url(../images/homephoto5.jpg);	
+background-image:url(../images/homephoto5.jpg);
 }  */
 #flex-container{
-	width:100%;
-	border:0px green solid;
+    width:100%;
+    border:0px green solid;
 }
 .flex-direction-nav {
     display: none;
@@ -742,7 +776,7 @@ background-image:url(../images/homephoto5.jpg);
 .flexslider {
     margin: 0 !important;
     padding: 0 !important;
-	border:0px #FFF solid !important;
+    border:0px #FFF solid !important;
 }
 .slides {
     margin: 0 !important;
@@ -761,10 +795,10 @@ ul.slides,  ul.slides li {
     padding: 0;
 }
  ul.slides li {
-	position:relative; 
+    position:relative;
  }
 ul.slides{
-width:100%;	
+width:100%;
 border-bottom:2px solid #888;
 }
 
@@ -774,15 +808,15 @@ max-height:980px; overflow:hidden; background-size:100% auto; background-positio
 }
 .slidetext{
 position:absolute;
-opacity:1; 
-display:block;   
+opacity:1;
+display:block;
 background-color:rgba(0,0,0,.7);
 
 }
 
 ul.slides li .slidetext a{
-	text-shadow: 2px 2px 1px #000000, -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000;
-	color:#f0f0f0;
+    text-shadow: 2px 2px 1px #000000, -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000;
+    color:#f0f0f0;
 }
 ul.slides li .home_headline {
     font-family: trebuchet ms;
@@ -843,7 +877,7 @@ font-family:Verdana, Geneva, sans-serif; font-weight:bold; display:block; text-d
 .slidetext{
 bottom: 15%;
 right: 3%;
-width:700px;    
+width:700px;
 }
 
 .flex-control-nav {
@@ -853,15 +887,15 @@ width: 700px !important;
 }
 
 
-/* 1366x768  */ 
+/* 1366x768  */
     @media only screen and (max-width : 1366px) {
 
 
-	
+
 .slidetext{
 bottom: 30%;
 right: 3%;
-width:800px;    
+width:800px;
 }
 
 .flex-control-nav {
@@ -877,18 +911,18 @@ width: 800px !important;
 .flex-control-nav {
     bottom: 10% !important;
 }
-		
-	}
+
+    }
 
 
-/* 1280x1024   & 1280 X 800	 */ 
+/* 1280x1024   & 1280 X 800	 */
 
 @media only screen and (max-width : 1280px) {
-	
+
 .slidetext{
 bottom: 15%;
 right: 3%;
-width:700px;    
+width:700px;
 }
 
 .flex-control-nav {
@@ -897,17 +931,17 @@ right: 3% !important;
 width: 700px !important;
 }
 
-		
+
 }
 
 /* 1024x768 	 */
 
 @media only screen and (max-width : 1280px) {
-	
+
 .slidetext{
 bottom: 10%;
 right: 3%;
-width:700px;    
+width:700px;
 }
 
 .flex-control-nav {
@@ -917,10 +951,10 @@ width: 700px !important;
 }
 }
 
- 
+
    @media only screen and (max-width : 1200px) {
 .container.top-home{
-width:98%;  
+width:98%;
 }
 #temp-region-4.container {
     width: 98%;
@@ -946,7 +980,7 @@ width:98%;
 .slidetext{
 bottom: 10%;
 right: 3%;
-width:700px;    
+width:700px;
 }
 
 .flex-control-nav {
@@ -954,15 +988,15 @@ bottom: 5% !important;
 right: 3% !important;
 width: 700px !important;
 }
-	
+
 }
 
 
     @media only screen and (max-width : 767px) {
-	.flexslider .slides img {
+    .flexslider .slides img {
     margin-top: -50px;
-}	
-		
+}
+
   .slidetext {
     position: relative;
     width: 100%;background: #841529;
@@ -1013,22 +1047,22 @@ ul.slides li .home_copy {
     margin-right: 15px;
 }
 
-	}
+    }
 
 
     @media only screen and (max-width : 480px) {
-		
-		.slidetext{
-		padding:0px !important;	
-		}
-		
+
+        .slidetext{
+        padding:0px !important;
+        }
+
 ul.slides li .slidetext a {
 text-align:center;
 padding:0px !important;
 }
-		ul.slides li .home_headline {
+        ul.slides li .home_headline {
     font-size: 17px;
-	text-align:center !important;
+    text-align:center !important;
 }
 .home_copy {
     display: none !important;
@@ -1040,7 +1074,7 @@ padding:0px !important;
     width: 10px !important;
 }
 
-	}
+    }
 /* end flex slider */
 
 
@@ -1221,7 +1255,7 @@ li.directions-directory-pridenet label{
    #photo-of-the-day{
        overflow:hidden; margin-top: 0px; margin-bottom:10px; padding-top: 10px;
    }
-   
+
    h2.explore {
     padding-top: 00px;
 }
@@ -1231,8 +1265,8 @@ li.directions-directory-pridenet label{
 
 
     #temp-region-10{
-    float:left;  
-    width:100%; 
+    float:left;
+    width:100%;
    }
 
 
@@ -1246,12 +1280,12 @@ li.directions-directory-pridenet label{
     }
 
     @media only screen and (max-width : 960px) {
-	
-	
 
-	}
-	
-	
+
+
+    }
+
+
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 
@@ -1283,10 +1317,10 @@ li.directions-directory-pridenet label{
 
     }
 
- 
 
 
-/* slider styles 
+
+/* slider styles
 
 1920x1080 */
 @media only screen and (max-width: 1920px) {
@@ -1335,18 +1369,13 @@ height: auto;
 }
 
 
-/* 1280 X 800 
+/* 1280 X 800
 1280x1024
-1280 X 800 
+1280 X 800
 1440x900
 1600x900
 768x1024
 ALL SET */
-
-
-
-
-
 
 #temp-region-6 {
 display:none;
